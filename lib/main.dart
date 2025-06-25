@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Планировщик Задач',
+      title: 'Список дел',
       // 3) Добавляем делегаты локализаций и указываем ru
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,
@@ -79,7 +79,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Планировщик Задач'),
+        title: const Text('Список дел'),
         actions: [
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),

@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> {
                     && t.status != TaskStatus.completed;
               }).toList();
               if (list.isEmpty) {
-                return const Center(child: Text('Нет задач на эту дату'));
+                return const Center(child: Text('Нет дел на эту дату'));
               }
               return ListView.builder(
                 itemCount: list.length,
